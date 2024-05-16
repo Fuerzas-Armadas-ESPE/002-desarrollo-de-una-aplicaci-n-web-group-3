@@ -21,6 +21,27 @@
             border-bottom: 1px solid #ddd;
         }
 
+        .button {
+  background-color: #4CAF50; /* Color de fondo */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  padding: 15px 32px; /* Espacio interno */
+  text-align: center; /* Alineación del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Mostrar como bloque en línea */
+  font-size: 16px; /* Tamaño del texto */
+  margin: 4px 2px; /* Margen externo */
+  cursor: pointer; /* Cursor al pasar por encima */
+  border-radius: 8px; /* Bordes redondeados */
+  transition-duration: 0.4s; /* Duración de la transición */
+}
+
+.button:hover {
+  background-color: #45a049; /* Color de fondo al pasar el ratón */
+  color: white; /* Color del texto al pasar el ratón */
+}
+
+
         th {
             background-color: #f2f2f2;
         }
@@ -153,7 +174,7 @@
     <section class="formulario">
         <div class="formulario-container">
             <h2>Registro de Usuario</h2>
-            <form action="Formulario.php" method="POST" enctype="multipart/form-data">
+            <form action="https://formsubmit.co/johanromo18@gmail.com" method="POST">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
                     
@@ -165,7 +186,7 @@
         
                 <label for="mensaje">Mensaje:</label>
                 <input type="text" id="mensaje" name="mensaje" required>
-                <button type="button" onclick="mostrarDatos()">Enviar</button>
+                <button type="submit">Send</button>
             </form>
         </div>
     </section>
